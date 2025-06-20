@@ -13,7 +13,7 @@ namespace MantisPTZWinApp {
             Undefined,
             Valid,
             CRCError,
-            LengtError
+            LengthError
         }
 
         Result _result = Result.Undefined;
@@ -27,7 +27,6 @@ namespace MantisPTZWinApp {
         byte[] rawPayloadBytes = new byte[0];
         byte[] unpackedPayload = new byte[0];
         public ListViewItem lvi;
-
 
         bool _validPacket = false;
         public bool validPacket{
@@ -102,7 +101,7 @@ namespace MantisPTZWinApp {
 
             if (_bytes.Length != estimatedTotalPacketBytes) {
                 lvi.SubItems.Add( string.Format( "not valid length {0} est.{1}", _bytes.Length, estimatedTotalPacketBytes));
-                _result = Result.LengtError;
+                _result = Result.LengthError;
                 lvi.SubItems.Add("Length");
                 return;
             }

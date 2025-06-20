@@ -1,98 +1,147 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\",
+  "WorkspaceRootPath": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|d:\\git_projects\\mcuprojects\\mantisptz_winapp\\mantisptzwinapp\\mantisptzwinapp\\inputpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\inputpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|d:\\git_projects\\mcuprojects\\mantisptz_winapp\\mantisptzwinapp\\mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|d:\\git_projects\\mcuprojects\\mantisptz_winapp\\mantisptzwinapp\\mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|d:\\git_projects\\mcuprojects\\mantisptz_winapp\\mantisptzwinapp\\mantisptzwinapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\udpconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\udpconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\mantisptzwinapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mantisptzwinapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|d:\\git_projects\\mcuprojects\\mantisptz_winapp\\mantisptzwinapp\\mantisptzwinapp\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\inputpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\inputpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 259,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 317,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InputPacket.cs",
-              "DocumentMoniker": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\InputPacket.cs",
-              "RelativeDocumentMoniker": "MantisPTZWinApp\\InputPacket.cs",
-              "ToolTip": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\InputPacket.cs",
-              "RelativeToolTip": "MantisPTZWinApp\\InputPacket.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBwAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "udpConnectionManager.cs",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\udpConnectionManager.cs",
+              "RelativeDocumentMoniker": "MantisPTZWinApp\\udpConnectionManager.cs",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\udpConnectionManager.cs",
+              "RelativeToolTip": "MantisPTZWinApp\\udpConnectionManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwCsAAAC2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T16:50:43.269Z",
+              "WhenOpened": "2025-06-20T07:18:00.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MantisPTZWinApp\\MainForm.cs",
-              "ToolTip": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs",
               "RelativeToolTip": "MantisPTZWinApp\\MainForm.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAADgv7EAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAJMAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T17:53:01.373Z",
+              "WhenOpened": "2025-06-19T18:11:32.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "MantisPTZWinApp\\MainForm.cs",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs [Design]",
+              "RelativeToolTip": "MantisPTZWinApp\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T17:47:24.054Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\Program.cs",
+              "RelativeDocumentMoniker": "MantisPTZWinApp\\Program.cs",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\Program.cs",
+              "RelativeToolTip": "MantisPTZWinApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T17:46:59.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "MantisPTZWinApp\\Properties\\Resources.resx",
-              "ToolTip": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\Properties\\Resources.resx",
-              "RelativeToolTip": "MantisPTZWinApp\\Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-03-24T17:32:53.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "MantisPTZWinApp\\MainForm.Designer.cs",
-              "ToolTip": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.Designer.cs",
-              "RelativeToolTip": "MantisPTZWinApp\\MainForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T17:30:11.412Z",
+              "Title": "MantisPTZWinApp.csproj",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MantisPTZWinApp.csproj",
+              "RelativeDocumentMoniker": "MantisPTZWinApp\\MantisPTZWinApp.csproj",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MantisPTZWinApp.csproj",
+              "RelativeToolTip": "MantisPTZWinApp\\MantisPTZWinApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-19T17:47:08.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs",
-              "RelativeDocumentMoniker": "MantisPTZWinApp\\MainForm.cs",
-              "ToolTip": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs [Design]",
-              "RelativeToolTip": "MantisPTZWinApp\\MainForm.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MantisPTZWinApp\\MainForm.Designer.cs",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.Designer.cs",
+              "RelativeToolTip": "MantisPTZWinApp\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T17:12:49.814Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-19T17:46:54.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InputPacket.cs",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\InputPacket.cs",
+              "RelativeDocumentMoniker": "MantisPTZWinApp\\InputPacket.cs",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\InputPacket.cs",
+              "RelativeToolTip": "MantisPTZWinApp\\InputPacket.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:50:43.269Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 83,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

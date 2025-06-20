@@ -1730,23 +1730,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andrey\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MantisPTZWinApp.csproj",
+      "projectUniqueName": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MantisPTZWinApp.csproj",
       "projectName": "MantisPTZWinApp",
-      "projectPath": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MantisPTZWinApp.csproj",
-      "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-      "outputPath": "D:\\GIT_Projects\\MCUProjects\\MantisPTZ_WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\obj\\",
+      "projectPath": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MantisPTZWinApp.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1803,7 +1803,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
