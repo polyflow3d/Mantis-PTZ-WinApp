@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MantisPTZWinApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9756a51f8a2ccb7b75e99353d10632fe987ec0c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b1ee545687a4a9f54345d62a2ee797b97a39ffe")]
 [assembly: System.Reflection.AssemblyProductAttribute("MantisPTZWinApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MantisPTZWinApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

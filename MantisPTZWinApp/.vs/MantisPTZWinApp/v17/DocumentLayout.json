@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\types.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\types.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\udpconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\udpconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\mantisptzwinapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mantisptzwinapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,71 +25,107 @@
     {
       "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\inputpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\inputpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\castinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\castinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|s:\\git_projects\\mantis-ptz-winapp\\mantisptzwinapp\\mantisptzwinapp\\mantisptzwinapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BFDE5D13-C0FA-44C2-8AE0-B6CDB50E4644}|MantisPTZWinApp\\MantisPTZWinApp.csproj|solutionrelative:mantisptzwinapp\\mantisptzwinapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 317,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 1368,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "udpConnectionManager.cs",
-              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\udpConnectionManager.cs",
-              "RelativeDocumentMoniker": "MantisPTZWinApp\\udpConnectionManager.cs",
-              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\udpConnectionManager.cs",
-              "RelativeToolTip": "MantisPTZWinApp\\udpConnectionManager.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAhwCsAAAC2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T07:18:00.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MantisPTZWinApp\\MainForm.cs",
               "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs",
               "RelativeToolTip": "MantisPTZWinApp\\MainForm.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAJMAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAJsBAAAAAAAAAAAowK8BAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T18:11:32.58Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MantisPTZWinApp\\MainForm.cs",
               "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.cs [Design]",
               "RelativeToolTip": "MantisPTZWinApp\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:47:24.054Z",
+              "WhenOpened": "2025-06-21T12:34:08.141Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "types.cs",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\types.cs",
+              "RelativeDocumentMoniker": "MantisPTZWinApp\\types.cs",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\types.cs",
+              "RelativeToolTip": "MantisPTZWinApp\\types.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T12:28:23.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CastingHelper.cs",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\CastingHelper.cs",
+              "RelativeDocumentMoniker": "MantisPTZWinApp\\CastingHelper.cs",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\CastingHelper.cs",
+              "RelativeToolTip": "MantisPTZWinApp\\CastingHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T12:22:54.407Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "udpConnectionManager.cs",
+              "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\udpConnectionManager.cs",
+              "RelativeDocumentMoniker": "MantisPTZWinApp\\udpConnectionManager.cs",
+              "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\udpConnectionManager.cs",
+              "RelativeToolTip": "MantisPTZWinApp\\udpConnectionManager.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAD4AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:18:00.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\Program.cs",
               "RelativeDocumentMoniker": "MantisPTZWinApp\\Program.cs",
               "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\Program.cs",
               "RelativeToolTip": "MantisPTZWinApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:46:59.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T17:46:59.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MantisPTZWinApp.csproj",
               "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MantisPTZWinApp.csproj",
               "RelativeDocumentMoniker": "MantisPTZWinApp\\MantisPTZWinApp.csproj",
@@ -101,38 +133,37 @@
               "RelativeToolTip": "MantisPTZWinApp\\MantisPTZWinApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-19T17:47:08.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T17:47:08.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MantisPTZWinApp\\MainForm.Designer.cs",
               "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\MainForm.Designer.cs",
               "RelativeToolTip": "MantisPTZWinApp\\MainForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAnwG4BAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T17:46:54.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "InputPacket.cs",
               "DocumentMoniker": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\InputPacket.cs",
               "RelativeDocumentMoniker": "MantisPTZWinApp\\InputPacket.cs",
               "ToolTip": "S:\\GIT_projects\\Mantis-PTZ-WinApp\\MantisPTZWinApp\\MantisPTZWinApp\\InputPacket.cs",
               "RelativeToolTip": "MantisPTZWinApp\\InputPacket.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T16:50:43.269Z"
             }
           ]
         },
         {
-          "DockedHeight": 83,
+          "DockedWidth": 165,
           "SelectedChildIndex": -1,
           "Children": [
             {

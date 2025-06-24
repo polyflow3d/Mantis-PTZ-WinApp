@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,7 +29,7 @@ public partial class MainForm : Form
     List<InputPacket> inputPacketsHistory;
     int maxLogLines = 10;
     List<string> logLines = new List<string>(10);
-
+    float averageUDPPacketsPerSecons = 0;
 
     #region Constant
     private readonly int[] baudrate = { 9600, 19200, 38400, 115200, 230400, 460800, 921600, 3860000 };
@@ -145,14 +145,15 @@ public partial class MainForm : Form
         {
             if (udpManager == null)
             {
-                udpManager = new udpConnectionManager( port_maskedTextBox.Text , "192.168.88.254");
-                Log(udpManager.connectionSummary);
- 
+                udpManager = new udpConnectionManager();
+                Log(udpManager.constructionSummary);
+                btnConnect.Text = "Disconnect";
             }
             else
             {
                 udpManager.Dispose();
                 udpManager = null;
+                btnConnect.Text = "Connect";
             }
         }
 
@@ -242,41 +243,15 @@ public partial class MainForm : Form
 
     private void MainForm_Load(object sender, EventArgs e)
     {
+
+        OnChangeConnectionMode();
         // We need to populate the lists during mainform is loading
         UpdateCOMPortList();
         ArrangeLayout();
-        fill_listView_packets_collums();
+
     }
 
-    void AddCollumnToListView(ListView lv, string text, int width)
-    {
-        ColumnHeader ch = new ColumnHeader();
-        ch.Text = text;
-        ch.Width = width;
-        lv.Columns.Add(ch);
-    }
 
-    private void fill_listView_packets_collums()
-    {
-        //listView_packets.Columns.Clear();
-        //listView_packets.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
-        //AddCollumnToListView(listView_packets, "#", 80);
-        //AddCollumnToListView(listView_packets, "Time", 80);
-        //AddCollumnToListView(listView_packets, "Start Byte", 80);
-        //AddCollumnToListView(listView_packets, "Packet ID", 80);
-        //AddCollumnToListView(listView_packets, "COBS", 70);
-        //AddCollumnToListView(listView_packets, "Payload Length", 90);
-        //AddCollumnToListView(listView_packets, "P0", 50);
-        //AddCollumnToListView(listView_packets, "P1", 50);
-        //AddCollumnToListView(listView_packets, "P2", 50);
-        //AddCollumnToListView(listView_packets, "P3", 50);
-        //AddCollumnToListView(listView_packets, "P4", 50);
-        //AddCollumnToListView(listView_packets, "P5", 50);
-        //AddCollumnToListView(listView_packets, "P6", 50);
-        //AddCollumnToListView(listView_packets, "P7", 50);
-        //AddCollumnToListView(listView_packets, "CRC", 50);
-        //AddCollumnToListView(listView_packets, "Stop Byte", 50);
-    }
 
     private void btnRefresh_Click(object sender, EventArgs e)
     {
@@ -372,35 +347,117 @@ public partial class MainForm : Form
         Log(string.Format(string.Format("connection type changed to {0}", connectionMode.ToString())));
         if (connectionMode == ConnectionMode.UDP)
         {
-            IP_groupbox.Visible = true;
+
             comPort_groupBox.Visible = false;
             btnConnect.Enabled = true;
         }
         else
         {
-            IP_groupbox.Visible = false;
+
             comPort_groupBox.Visible = true;
             btnConnect.Enabled = false;
+
         }
     }
 
-    private void timer_100ms_Tick(object sender, EventArgs e)
-    {
-        if (udpManager != null)
-        {
-            Byte[] data = udpManager.Update();
-            if (data != null)
-            {
-                Log(Encoding.ASCII.GetString(data));
-            }
-        }
+    int progressBarVal = 0;
 
-    }
+ 
 
     private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
     {
-        if(udpManager != null){ 
+        if (udpManager != null)
+        {
             udpManager.Dispose();
+        }
+    }
+
+
+
+    private void horizontal_input_upDown_ValueChanged(object sender, EventArgs e)
+    {
+        c.horizonal = (short)horizontal_input_upDown.Value;
+        c.vertical = (short)vertical_input_upDown.Value;
+    }
+
+    Command c = new Command();
+
+
+    void SendCommand()
+    {
+        if (udpManager != null)
+        {
+
+            c.horizonal = (short)horizontal_input_upDown.Value;
+            c.vertical = (short)vertical_input_upDown.Value;
+            udpManager.SendPackage(c);
+
+        }
+    }
+
+
+
+    private void vertical_input_upDown_ValueChanged(object sender, EventArgs e)
+    {
+        c.horizonal = (short)horizontal_input_upDown.Value;
+        c.vertical = (short)vertical_input_upDown.Value;
+    }
+
+    private void command_button_0_Click(object sender, EventArgs e)
+    {
+
+        c.relay0 = (byte)(c.relay0 == 1 ? 0 : 1);
+
+    }
+
+    private void command_button1_Click(object sender, EventArgs e)
+    {
+        c.relay1 = (byte)(c.relay1 == 1 ? 0 : 1);
+    }
+
+    private void timer_10ms_Tick(object sender, EventArgs e)
+    {
+        if (udpManager != null)
+        {
+            udpConnectionManager.RecievedUDPPaket rp = udpManager.Update();
+
+            if (rp != null) {
+                //string hor =  rp.telemetry.horizonal.ToString();
+                //string vert = rp.telemetry.vertical.ToString();
+                //string diag = rp.telemetry.headDiagnosticEnum.ToString();
+                //string data0 = rp.telemetry.headPacketRateTelemetry.ToString();
+                //string data1 = rp.telemetry.headPacketRateCommand.ToString();
+                //string data2 = rp.telemetry.udpTelemetryPacketType.ToString();
+
+                Log( rp.telemetry.GetString() );
+            } else {
+
+            }
+            SendCommand();
+            averageUDPPacketsPerSecons = ((averageUDPPacketsPerSecons * 9) + (1000f / udpManager.deltaTimePacketRecieve.Microseconds)) / 10f;
+
+        }
+        else
+        {
+            udp_link_stats_label.Text = string.Format("");
+        }
+        progressBarVal += 10;
+        if (progressBarVal > 100)
+        {
+            progressBarVal = 0;
+        }
+    }
+
+    private void timer_1000ms_Tick(object sender, EventArgs e)
+    {
+         if (udpManager != null)
+        {
+            udp_link_stats_label.Text = string.Format("←←← {0} packets/sec ←←←", udpManager.recievedPacketsCount);
+            udpManager.recievedPacketsCount = 0;
+        }
+        else
+        {
+            udp_link_stats_label.Text = "";
         }
     }
 }

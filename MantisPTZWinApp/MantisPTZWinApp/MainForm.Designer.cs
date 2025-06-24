@@ -30,13 +30,13 @@
         btnConnect = new Button();
         laptop_icon = new PictureBox();
         mainPanel = new Panel();
-        IP_groupbox = new GroupBox();
-        ip_maskedTextBox = new TextBox();
-        port_maskedTextBox = new MaskedTextBox();
+        udp_link_stats_label = new Label();
+        command_button1 = new Button();
+        command_button_0 = new Button();
         comPort_groupBox = new GroupBox();
         vertical_groupBox = new GroupBox();
         vertical_feedback_label = new Label();
-        numericUpDown1 = new NumericUpDown();
+        vertical_input_upDown = new NumericUpDown();
         log_textBox = new TextBox();
         ptzIcon = new PictureBox();
         remoteControllerIcon = new PictureBox();
@@ -48,13 +48,13 @@
         uart_toolStripMenuItem = new ToolStripMenuItem();
         udp_toolStripMenuItem = new ToolStripMenuItem();
         helpToolStripMenuItem = new ToolStripMenuItem();
-        timer_100ms = new System.Windows.Forms.Timer(components);
+        timer_1000ms = new System.Windows.Forms.Timer(components);
+        timer_10ms = new System.Windows.Forms.Timer(components);
         ((System.ComponentModel.ISupportInitialize)laptop_icon).BeginInit();
         mainPanel.SuspendLayout();
-        IP_groupbox.SuspendLayout();
         comPort_groupBox.SuspendLayout();
         vertical_groupBox.SuspendLayout();
-        ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+        ((System.ComponentModel.ISupportInitialize)vertical_input_upDown).BeginInit();
         ((System.ComponentModel.ISupportInitialize)ptzIcon).BeginInit();
         ((System.ComponentModel.ISupportInitialize)remoteControllerIcon).BeginInit();
         horizontal_groupBox.SuspendLayout();
@@ -74,7 +74,7 @@
         // 
         // btnConnect
         // 
-        btnConnect.Location = new Point(142, 92);
+        btnConnect.Location = new Point(138, 53);
         btnConnect.Margin = new Padding(4, 5, 4, 5);
         btnConnect.Name = "btnConnect";
         btnConnect.Size = new Size(100, 28);
@@ -98,11 +98,13 @@
         // mainPanel
         // 
         mainPanel.AutoSize = true;
-        mainPanel.Controls.Add(IP_groupbox);
+        mainPanel.Controls.Add(udp_link_stats_label);
+        mainPanel.Controls.Add(command_button1);
+        mainPanel.Controls.Add(command_button_0);
+        mainPanel.Controls.Add(btnConnect);
         mainPanel.Controls.Add(comPort_groupBox);
         mainPanel.Controls.Add(vertical_groupBox);
         mainPanel.Controls.Add(log_textBox);
-        mainPanel.Controls.Add(btnConnect);
         mainPanel.Controls.Add(ptzIcon);
         mainPanel.Controls.Add(remoteControllerIcon);
         mainPanel.Controls.Add(laptop_icon);
@@ -115,37 +117,40 @@
         mainPanel.TabStop = true;
         mainPanel.Resize += mainPanel_Resize;
         // 
-        // IP_groupbox
+        // udp_link_stats_label
         // 
-        IP_groupbox.Controls.Add(ip_maskedTextBox);
-        IP_groupbox.Controls.Add(port_maskedTextBox);
-        IP_groupbox.Location = new Point(137, 16);
-        IP_groupbox.Name = "IP_groupbox";
-        IP_groupbox.Size = new Size(246, 68);
-        IP_groupbox.TabIndex = 21;
-        IP_groupbox.TabStop = false;
-        IP_groupbox.Text = "IP/Port";
+        udp_link_stats_label.AutoSize = true;
+        udp_link_stats_label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        udp_link_stats_label.Location = new Point(257, 53);
+        udp_link_stats_label.Name = "udp_link_stats_label";
+        udp_link_stats_label.Size = new Size(238, 28);
+        udp_link_stats_label.TabIndex = 23;
+        udp_link_stats_label.Text = "....... 3 packets/seconds....... ";
         // 
-        // ip_maskedTextBox
+        // command_button1
         // 
-        ip_maskedTextBox.Location = new Point(5, 29);
-        ip_maskedTextBox.Name = "ip_maskedTextBox";
-        ip_maskedTextBox.Size = new Size(125, 27);
-        ip_maskedTextBox.TabIndex = 21;
-        ip_maskedTextBox.Text = "192.168.88.254";
+        command_button1.Location = new Point(491, 229);
+        command_button1.Name = "command_button1";
+        command_button1.Size = new Size(180, 29);
+        command_button1.TabIndex = 22;
+        command_button1.Text = "Command 1";
+        command_button1.UseVisualStyleBackColor = true;
+        command_button1.Click += command_button1_Click;
         // 
-        // port_maskedTextBox
+        // command_button_0
         // 
-        port_maskedTextBox.Location = new Point(150, 29);
-        port_maskedTextBox.Name = "port_maskedTextBox";
-        port_maskedTextBox.Size = new Size(83, 27);
-        port_maskedTextBox.TabIndex = 20;
-        port_maskedTextBox.Text = "7777";
+        command_button_0.Location = new Point(491, 182);
+        command_button_0.Name = "command_button_0";
+        command_button_0.Size = new Size(180, 29);
+        command_button_0.TabIndex = 21;
+        command_button_0.Text = "Command 0";
+        command_button_0.UseVisualStyleBackColor = true;
+        command_button_0.Click += command_button_0_Click;
         // 
         // comPort_groupBox
         // 
         comPort_groupBox.Controls.Add(comport_cbox);
-        comPort_groupBox.Location = new Point(137, 16);
+        comPort_groupBox.Location = new Point(741, 229);
         comPort_groupBox.Name = "comPort_groupBox";
         comPort_groupBox.Size = new Size(181, 68);
         comPort_groupBox.TabIndex = 20;
@@ -155,10 +160,10 @@
         // vertical_groupBox
         // 
         vertical_groupBox.Controls.Add(vertical_feedback_label);
-        vertical_groupBox.Controls.Add(numericUpDown1);
-        vertical_groupBox.Location = new Point(278, 171);
+        vertical_groupBox.Controls.Add(vertical_input_upDown);
+        vertical_groupBox.Location = new Point(257, 171);
         vertical_groupBox.Name = "vertical_groupBox";
-        vertical_groupBox.Size = new Size(239, 123);
+        vertical_groupBox.Size = new Size(212, 125);
         vertical_groupBox.TabIndex = 17;
         vertical_groupBox.TabStop = false;
         vertical_groupBox.Text = "Vertical";
@@ -167,29 +172,33 @@
         // 
         vertical_feedback_label.AutoSize = true;
         vertical_feedback_label.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-        vertical_feedback_label.Location = new Point(87, 37);
+        vertical_feedback_label.Location = new Point(86, 23);
         vertical_feedback_label.Name = "vertical_feedback_label";
         vertical_feedback_label.Size = new Size(44, 28);
         vertical_feedback_label.TabIndex = 15;
         vertical_feedback_label.Text = "-15";
         // 
-        // numericUpDown1
+        // vertical_input_upDown
         // 
-        numericUpDown1.Location = new Point(40, 78);
-        numericUpDown1.Name = "numericUpDown1";
-        numericUpDown1.Size = new Size(150, 27);
-        numericUpDown1.TabIndex = 14;
+        vertical_input_upDown.Location = new Point(60, 77);
+        vertical_input_upDown.Maximum = new decimal(new int[] { 15, 0, 0, 0 });
+        vertical_input_upDown.Minimum = new decimal(new int[] { 15, 0, 0, int.MinValue });
+        vertical_input_upDown.Name = "vertical_input_upDown";
+        vertical_input_upDown.Size = new Size(118, 27);
+        vertical_input_upDown.TabIndex = 14;
+        vertical_input_upDown.Value = new decimal(new int[] { 15, 0, 0, 0 });
+        vertical_input_upDown.ValueChanged += vertical_input_upDown_ValueChanged;
         // 
         // log_textBox
         // 
         log_textBox.BackColor = SystemColors.Control;
         log_textBox.BorderStyle = BorderStyle.FixedSingle;
-        log_textBox.Location = new Point(12, 315);
+        log_textBox.Location = new Point(12, 317);
         log_textBox.Multiline = true;
         log_textBox.Name = "log_textBox";
         log_textBox.ReadOnly = true;
         log_textBox.ScrollBars = ScrollBars.Vertical;
-        log_textBox.Size = new Size(1158, 398);
+        log_textBox.Size = new Size(1170, 381);
         log_textBox.TabIndex = 17;
         // 
         // ptzIcon
@@ -222,7 +231,7 @@
         horizontal_groupBox.Controls.Add(horizontal_input_upDown);
         horizontal_groupBox.Location = new Point(12, 171);
         horizontal_groupBox.Name = "horizontal_groupBox";
-        horizontal_groupBox.Size = new Size(239, 123);
+        horizontal_groupBox.Size = new Size(214, 125);
         horizontal_groupBox.TabIndex = 16;
         horizontal_groupBox.TabStop = false;
         horizontal_groupBox.Text = "Horizontal";
@@ -231,7 +240,7 @@
         // 
         horizonal_feedback_label.AutoSize = true;
         horizonal_feedback_label.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-        horizonal_feedback_label.Location = new Point(92, 37);
+        horizonal_feedback_label.Location = new Point(86, 23);
         horizonal_feedback_label.Name = "horizonal_feedback_label";
         horizonal_feedback_label.Size = new Size(24, 28);
         horizonal_feedback_label.TabIndex = 15;
@@ -239,10 +248,13 @@
         // 
         // horizontal_input_upDown
         // 
-        horizontal_input_upDown.Location = new Point(40, 78);
+        horizontal_input_upDown.Location = new Point(50, 77);
+        horizontal_input_upDown.Maximum = new decimal(new int[] { 60, 0, 0, 0 });
+        horizontal_input_upDown.Minimum = new decimal(new int[] { 60, 0, 0, int.MinValue });
         horizontal_input_upDown.Name = "horizontal_input_upDown";
-        horizontal_input_upDown.Size = new Size(150, 27);
+        horizontal_input_upDown.Size = new Size(108, 27);
         horizontal_input_upDown.TabIndex = 14;
+        horizontal_input_upDown.ValueChanged += horizontal_input_upDown_ValueChanged;
         // 
         // menuStrip1
         // 
@@ -284,9 +296,17 @@
         helpToolStripMenuItem.Size = new Size(55, 24);
         helpToolStripMenuItem.Text = "Help";
         // 
-        // timer_100ms
+        // timer_1000ms
         // 
-        timer_100ms.Tick += timer_100ms_Tick;
+        timer_1000ms.Enabled = true;
+        timer_1000ms.Interval = 1000;
+        timer_1000ms.Tick += timer_1000ms_Tick;
+        // 
+        // timer_10ms
+        // 
+        timer_10ms.Enabled = true;
+        timer_10ms.Interval = 10;
+        timer_10ms.Tick += timer_10ms_Tick;
         // 
         // MainForm
         // 
@@ -306,12 +326,10 @@
         ((System.ComponentModel.ISupportInitialize)laptop_icon).EndInit();
         mainPanel.ResumeLayout(false);
         mainPanel.PerformLayout();
-        IP_groupbox.ResumeLayout(false);
-        IP_groupbox.PerformLayout();
         comPort_groupBox.ResumeLayout(false);
         vertical_groupBox.ResumeLayout(false);
         vertical_groupBox.PerformLayout();
-        ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+        ((System.ComponentModel.ISupportInitialize)vertical_input_upDown).EndInit();
         ((System.ComponentModel.ISupportInitialize)ptzIcon).EndInit();
         ((System.ComponentModel.ISupportInitialize)remoteControllerIcon).EndInit();
         horizontal_groupBox.ResumeLayout(false);
@@ -343,12 +361,13 @@
     private TextBox log_textBox;
     private GroupBox vertical_groupBox;
     private Label vertical_feedback_label;
-    private NumericUpDown numericUpDown1;
+    private NumericUpDown vertical_input_upDown;
     private TextBox textBox1;
     private GroupBox comPort_groupBox;
-    private GroupBox IP_groupbox;
-    private MaskedTextBox port_maskedTextBox;
-    public System.Windows.Forms.Timer timer_100ms;
-    private TextBox ip_maskedTextBox;
+    public System.Windows.Forms.Timer timer_1000ms;
+    private Button command_button1;
+    private Button command_button_0;
+    private Label udp_link_stats_label;
+    private System.Windows.Forms.Timer timer_10ms;
 }
  
